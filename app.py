@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Elasticsearch initialization
 
 es = Elasticsearch(
-    ""http://elasticsearch:9200",  # Replace with your Elasticsearch endpoint
+    "http://elasticsearch:9200",  # Replace with your Elasticsearch endpoint
     basic_auth=("elastic", "ZH6qQzes3AvVypDAlmDvPqmw")  # Replace with your username and password
 )
 
